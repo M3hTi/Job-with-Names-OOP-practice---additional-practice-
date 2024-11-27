@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jobs &amp; Names Manager</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Jobs &amp; Names Manager</h1>
+            <div class="input-section">
+                <form id="jobForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Enter Name" required>
+                        <input type="text" id="job" placeholder="Enter Job Title" required>
+                        <button type="submit" class="add-btn">
+                            <i class="fas fa-plus"></i> Add
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="jobs-list">
+            </div>
+        </div>
+        <script src="scripts/objects.js"></script>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
